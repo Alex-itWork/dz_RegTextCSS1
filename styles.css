@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Стили для заголовка с классом main-header */
+.main-header {
+    font-size: 56px;         /* Устанавливаем размер шрифта 56px */
+    color: #365f91;          /* Устанавливаем цвет текста */
+    font-family: serif;      /* Устанавливаем шрифт с засечками */
+}
+
+/* Дополнительные стили (по желанию) */
+body {
+    font-family: Arial, sans-serif; /* Базовый шрифт для всего документа */
+}
+
+h1 {
+    margin-bottom: 20px; /* Отступ снизу заголовка */
+}
+
+.lead {
+    font-style: italic; /* Курсив для абзаца lead */
+}
+
+.main-img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto;
+}
+
+.works-list {
+    margin-left: 20px; /* Отступ слева для списка */
+}
+
+blockquote {
+    font-style: italic; /* Курсив для цитаты */
+    margin: 20px 0;    /* Отступы сверху и снизу */
+    padding-left: 10px; /* Отступ слева */
+    border-left: 2px solid #ccc; /* Левый бордер */
+}
